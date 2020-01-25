@@ -1,0 +1,28 @@
+.check{
+  width: 688px;
+  height: 688px;
+  //font:bold italic 24px;
+  //background: url("http://naturellindia.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/w/o/workout_1_2.jpg") 0 0/688px no-repeat;}
+li{
+  opacity:0;
+  //background:rgba(255,255,255,.4);
+  //text-shadow: 1px 1px white;
+  white-space:nowrap;
+ 
+}
+li:first-child{ animation:bringback 1s 0s forwards;}
+li:nth-child(2){animation:bringback 1s  1s forwards;}
+li:nth-child(3){animation:bringback 1s  1.5s forwards;}
+li:nth-child(4){ animation:bringback 1s 2s forwards;}
+li:nth-child(5){animation:bringback 1s  2.5s forwards;}
+li:nth-child(6){animation:bringback 1s 3s forwards;}
+li:nth-child(7){animation:bringback 1s 3.5s forwards;}
+li:nth-child(8){animation:bringback 1s 4s forwards;}
+li:nth-child(9){animation:bringback 1s 4.5s forwards;}
+
+
+
+@keyframes bringback{
+  to{opacity:1;text-indent:25px; }
+  }
+
